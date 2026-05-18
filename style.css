@@ -23,3 +23,8 @@
     display: block;
     padding: 1em;
 }
+
+.home-button a {
+    text-decoration: none;
+    color: rgb(58, 55, 55);
+}
