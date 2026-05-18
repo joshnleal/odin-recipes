@@ -6,9 +6,20 @@
 }
 
 .menu {
-    margin: auto;
+    text-align: center;
+    margin: 100px auto;
+    background-color: lightgray;
+    border: 2px rgb(238, 238, 238) solid;
+    width: fit-content;
+    padding: 2em;
+}
+
+.title {
+    margin-bottom: 20px;
+    color: rgb(58, 55, 55);
 }
 
 .recipe-anchor {
     display: block;
+    padding: 1em;
 }
