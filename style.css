@@ -5,6 +5,7 @@
     font-family: Verdana, Helvetica, sans-serif;
 }
 
+/* .menu for the main styling of each page */
 .menu {
     text-align: center;
     margin: 100px auto;
@@ -13,6 +14,8 @@
     width: fit-content;
     padding: 2em;
 }
+
+/* Styling for menu page */
 
 .title {
     margin-bottom: 20px;
@@ -27,4 +30,34 @@
 .home-button a {
     text-decoration: none;
     color: rgb(58, 55, 55);
+}
+
+/* Styling for recipe pages */
+
+.description, .ingredients, .steps {
+    text-align: left;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.description {
+    
+}
+
+div.image {
+    width: fit-content;
+}
+
+img {
+    border: 2px solid black;
+}
+
+.descriptor {
+    width: 700px;
+    margin-left: 15px;
+}
+
+.image, .descriptor {
+    display: inline-block;
 }
