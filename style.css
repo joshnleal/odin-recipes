@@ -3,6 +3,7 @@ html {
     margin: 0;
     padding: 0;
     font-family: Verdana, Helvetica, sans-serif;
+    background-color: dimgray;
 }
 
 /* .menu for the main styling of each page */
@@ -29,8 +30,10 @@ html {
 }
 
 .home-button a {
+    font-size: larger;
     text-decoration: none;
-    color: rgb(58, 55, 55);
+    color: rgb(253, 156, 65);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 /* Styling for Odin title in recipe pages */
@@ -55,7 +58,6 @@ html {
 
 .description {
     padding-bottom: 15px;
-    align-content: space-around;
 }
 
 .image h1 {
@@ -68,6 +70,7 @@ div.image {
 
 img {
     border: 2px solid black;
+    border-radius: 5%;
 }
 
 .descriptor {
@@ -81,4 +84,8 @@ img {
 
 .steps {
     width: 600px;
+}
+
+li {
+    margin-bottom: 15px;
 }
