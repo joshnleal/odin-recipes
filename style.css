@@ -1,4 +1,4 @@
-* {
+html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -32,17 +32,33 @@
     color: rgb(58, 55, 55);
 }
 
+/* Styling for Odin title in recipe pages */
+
+.home-button {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: -50px;
+}
+
 /* Styling for recipe pages */
+
+.recipe {
+    width: fit-content;
+}
 
 .description, .ingredients, .steps {
     text-align: left;
-    border: 2px solid black;
     margin-bottom: 20px;
     font-size: 18px;
 }
 
 .description {
-    
+    padding-bottom: 15px;
+    align-content: space-around;
+}
+
+.image h1 {
+    font-size: 28px;
 }
 
 div.image {
@@ -54,10 +70,14 @@ img {
 }
 
 .descriptor {
-    width: 700px;
+    width: 600px;
     margin-left: 15px;
 }
 
 .image, .descriptor {
     display: inline-block;
+}
+
+.steps {
+    width: 600px;
 }
